@@ -1,7 +1,6 @@
 #!/bin/bash
 #
 # Check that the health endpoint is returning 200 using docker-compose
-sudo apt install docker-compose
 docker-compose build
 docker-compose up -d
 error=$?
